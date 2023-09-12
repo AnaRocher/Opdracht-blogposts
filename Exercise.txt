@@ -1,0 +1,21 @@
+You must be able to register. - OK
+All fields are mandatory and the password must have a confirmation. - OK
+The username and email address must be unique in the database. - OK
+After that you should be able to log in. - OK
+This does not happen via email address but via username. - OK
+If you enter a valid username/password combination you must be logged in. - OK 
+
+Once logged in you should be able to view all posts from the entire blog. - OK
+If you add a post or comment, the user_id of the logged in user must automatically be linked to it. - OK
+
+The “profile” page should only show the posts of the logged in users. - OK
+The “show” page of a user should only show the posts of the user that is retrieved from the url with username. - OK
+
+The add/modify/remove pages of posts and comments may only be available when you are logged in. - OK
+The login/register pages should only be available when you are logged out. - OK
+You may also only visit the profile page if you are logged in. - OK
+
+You also create a gate for Posts and Comments. - OK
+The edit/delete and the “actions” like edit/delete should only appear and be executable if it's your own post. - OK
+So you may not edit any post or comment of anyone else. - OK
+
